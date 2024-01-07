@@ -67,14 +67,6 @@ export default function App() {
 
   useEffect(() => {
     stepsRef.current.scrollToIndex({
-      index: 0,
-      animated: true,
-      viewOffset: 16,
-    });
-  }, []);
-
-  useEffect(() => {
-    stepsRef.current.scrollToIndex({
       index: currentStepIndex,
       animated: true,
       viewOffset: 16,
